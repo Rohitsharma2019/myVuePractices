@@ -4,6 +4,8 @@
     <HelloWorld msg="Welcome back Rohit" />
     <NewCompo />
     <hellorohit />
+    <V_forExample />
+    <rendring />
 </div>
 </template>
 
@@ -11,13 +13,17 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import NewCompo from "./components/NewCompo.vue";
 import hellorohit from "./components/hellorohit.vue";
+import V_forExample from "./components/V_forExample.vue";
+import rendring from "./components/rendring.vue";
 
 export default {
     name: "App",
     components: {
         HelloWorld,
         NewCompo,
-        hellorohit
+        hellorohit,
+        V_forExample,
+        rendring
     },
 };
 </script>
