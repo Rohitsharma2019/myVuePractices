@@ -6,6 +6,8 @@
     <hellorohit />
     <V_forExample />
     <rendring />
+    <router-view></router-view>
+    
 </div>
 </template>
 
